@@ -9,3 +9,9 @@
 }
 
 /* ---------------Themes--------------- */
+@theme{
+  --font-manrope: "Manrope", "sans-serif";
+  --color-brand: #6366F1;
+  --color-gray800: #3E4265;
+  --color-gray700: #585C7B;
+}
