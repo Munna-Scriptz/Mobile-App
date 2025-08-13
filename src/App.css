@@ -1,0 +1,7 @@
+/* ---------------Common css------------- */
+body{
+    font-family: "Manrope", sans-serif;
+}
+#ArrowDownSHadow{
+    box-shadow: rgba(104, 87, 190, 0.788) 0px 20px 30px -10px;
+}
