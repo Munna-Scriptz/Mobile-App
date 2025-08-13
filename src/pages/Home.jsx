@@ -5,6 +5,7 @@ import Features from '../components/Features'
 import Works from '../components/Works'
 import Use from '../components/USe'
 import Reviews from '../components/Reviews'
+import Subscribe from '../components/Subscribe'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Works/>
       <Use/>
       <Reviews/>
+      <Subscribe/>
     </>
   )
 }

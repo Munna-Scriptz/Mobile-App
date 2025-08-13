@@ -11,7 +11,7 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-        <footer className='mt-[112px] pb-[48px] pt-[64px]'>
+        <footer className='pb-[48px] pt-[64px]'>
             <div className="container">
                 <div id="Footer-Row" className='flex flex-col items-center'>
                     {/* -------Footer Logo------- */}
