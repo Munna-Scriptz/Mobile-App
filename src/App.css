@@ -5,3 +5,16 @@ body{
 #ArrowDownSHadow{
     box-shadow: rgba(104, 87, 190, 0.788) 0px 20px 30px -10px;
 }
+.slick-prev {
+    left: -25px;
+    color: black !important;
+}
+.slick-next {
+    right: -25px;
+    color: black !important;
+}
+.slick-initialized .slick-slide {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
