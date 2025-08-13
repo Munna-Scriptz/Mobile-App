@@ -12,11 +12,11 @@ const Navbar = () => {
                     <div className='flex items-center gap-[48px]'>
                         <img src={Logo} alt="Logo" />
                         <ul className='flex items-center gap-[24px] font-manrope font-semibold text-base text-gray800'>
-                            <li><Link to={'/'}>Features</Link></li>
-                            <li><Link to={'/'}>Overview</Link></li>
-                            <li><Link to={'/'}>Store</Link></li>
-                            <li><Link to={'/'}>Blog</Link></li>
-                            <li><Link to={'/'}>Contact</Link></li>
+                            <li><Link id='UnderLineHover' to={'/'}>Features</Link></li>
+                            <li><Link id='UnderLineHover' to={'/'}>Overview</Link></li>
+                            <li><Link id='UnderLineHover' to={'/'}>Store</Link></li>
+                            <li><Link id='UnderLineHover' to={'/'}>Blog</Link></li>
+                            <li><Link id='UnderLineHover' to={'/'}>Contact</Link></li>
                         </ul>
                     </div>
                     {/* -----------Nav button--------  */}

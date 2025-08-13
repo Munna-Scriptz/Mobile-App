@@ -8,6 +8,32 @@ body{
 #SliderBoxShadow{
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
+#UnderLineHover{
+    position: relative;
+}
+#UnderLineHover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(90deg,rgba(99, 102, 241, 1) 0%, rgba(183, 65, 215, 1) 100%);
+    border-radius: 6px;
+    transition: 300ms ease-in-out all;
+}
+#UnderLineHover:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ------------Slider Css-------------- */
 .slick-prev {
     left: -25px;
     color: black !important;
