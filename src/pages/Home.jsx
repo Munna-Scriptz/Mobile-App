@@ -4,6 +4,7 @@ import Brands from '../components/Brands'
 import Features from '../components/Features'
 import Works from '../components/Works'
 import Use from '../components/USe'
+import Reviews from '../components/Reviews'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Features/>
       <Works/>
       <Use/>
+      <Reviews/>
     </>
   )
 }
