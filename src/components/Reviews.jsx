@@ -127,7 +127,7 @@ const Reviews = () => {
                                                 <FaQuoteLeft className='text-[20px] text-white'/>
                                             </div>
                                             <p className='text-gray700 text-base mt-[24px] h-[156px]'>{item.message}</p>
-                                            <div className='text-[#FFBA08] text-[12px] flex items-center gap-1 mt-[16px]'>
+                                            <div key={e} className='text-[#FFBA08] text-[12px] flex items-center gap-1 mt-[16px]'>
                                                 {item.stars}
                                             </div>
                                         </div>

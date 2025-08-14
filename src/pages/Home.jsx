@@ -6,6 +6,7 @@ import Works from '../components/Works'
 import Use from '../components/USe'
 import Reviews from '../components/Reviews'
 import Subscribe from '../components/Subscribe'
+import Faq from '../components/Faq'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Works/>
       <Use/>
       <Reviews/>
+      <Faq/>
       <Subscribe/>
     </>
   )
