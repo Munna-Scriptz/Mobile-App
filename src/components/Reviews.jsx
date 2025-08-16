@@ -119,16 +119,20 @@ const Reviews = () => {
                     <div className="slider-container">
                         <Slider {...settings}>
                             {
-                                ReviewData.map((item , e)=>(
-                                    <div key={e}>
+                                ReviewData.map((item , index)=>(
+                                    <div key={index}>
                                         <div id='SliderBoxShadow' className='w-[306px] px-[24px] pb-[24px] rounded-[8px]'>
                                             {/* -------Quote------ */}
                                             <div id='Quote' className='bg-brand w-[44px] h-[44px] rounded-[6px] flex items-center justify-center'>
                                                 <FaQuoteLeft className='text-[20px] text-white'/>
                                             </div>
                                             <p className='text-gray700 text-base mt-[24px] h-[156px]'>{item.message}</p>
-                                            <div key={e} className='text-[#FFBA08] text-[12px] flex items-center gap-1 mt-[16px]'>
-                                                {item.stars}
+                                            <div className='text-[#FFBA08] text-[12px] flex items-center gap-1 mt-[16px]'>
+                                                {
+                                                    item.stars.map((stars, i)=>(
+                                                        <span key={i}>{stars}</span>
+                                                    ))
+                                                }
                                             </div>
                                         </div>
                                         {/* ----------Profile--------- */}
