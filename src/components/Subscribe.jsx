@@ -5,7 +5,7 @@ import { MdOutlineEmail } from "react-icons/md";
 const Subscribe = () => {
   return (
     <>
-        <section id='Subscribe' className='mt-[96px] bg-gray100 py-[72px]'>
+        <section id='Subscribe' className='mt-[96px] bg-gray100 py-[72px]' data-aos="fade-up">
             <div className="container">
                 <div id="Subscribe-Row" className='flex items-center justify-between'>
                     <div className='flex items-center gap-[32px]'>

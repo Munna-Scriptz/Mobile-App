@@ -26,11 +26,11 @@ const Works = () => {
             <div className="container">
                 <div id="Works-Row">
                     {/* -----------Header------------- */}
-                    <div>
+                    <div data-aos="fade-up">
                         <h2 className='text-gray900 text-[40px] font-extrabold text-center'>How Does It Work?</h2>
                     </div>
                     {/* ------------Slider------------ */}
-                    <div className='mt-[48px]'>
+                    <div className='mt-[48px]' data-aos="fade-up">
                         <Slider {...settings}>
                             <div>
                                 <img src={SliderImg1} alt="Image" />
@@ -43,13 +43,13 @@ const Works = () => {
                             </div>
                         </Slider>
                     </div>
-                    <div className='mt-[40px] flex flex-col items-center'>
+                    <div className='mt-[40px] flex flex-col items-center' data-aos="fade-up">
                         <h2 className='text-gray900 text-2xl font-extrabold'>Step 2. Latest transaction history</h2>
                         <p className='text-gray700 text-base font-normal w-[636px] text-center mt-[12px]'>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique quisque hac in consectetur condimentum. </p>
                     </div>
                 </div>
             </div>
-            <div className='w-full bg-gray300 h-[2px] absolute bottom-0 left-0'>
+            <div className='w-full bg-gray300 h-[2px] absolute bottom-0 left-0' data-aos="fade-up">
                 <span className='absolute left-0 top-0 bg-brand w-[508px] h-full'></span>
             </div>
         </section>

@@ -6,9 +6,7 @@ import { FiUser } from "react-icons/fi";
 const Navbar = () => {
   return (
     <>
-        <nav data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+        <nav data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <div className="container">
                 <div id="NavBar_Row" className='py-[25px] flex items-center justify-between' >
                     <div className='flex items-center gap-[48px]'>

@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="container">
                 <div id="Banner-Row" className='flex items-center justify-between'>
                     {/* ---------Banner Text--------- */}
-                    <div>
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <h1 className='text-[56px] text-gray900 w-[526px] font-extrabold'>Manage All Your Money in One App</h1>
                         <p className='text-[18px] text-gray700 w-[526px] font-normal mt-[24px]'>We offer you a new generation of the mobile banking. Save, spend & manage money in your pocket.</p>
                         {/* ---------Buttons--------- */}
@@ -39,7 +39,7 @@ const Banner = () => {
                         </Link>
                     </div>
                     {/* ---------Banner Image--------- */}
-                    <div>
+                    <div data-aos="fade-left" data-aos-offset="100" data-aos-easing="ease-in-sine">
                         <img src={BannerImg} alt="Banner Image" />
                     </div>
                 </div>

@@ -49,13 +49,13 @@ const Faq = () => {
             <div className="container">
                 <div id="Faq-Row" className='flex items-center justify-between'>
                     {/* -----------Left Side------------ */}
-                    <div className='w-[416px]'>
+                    <div className='w-[416px]' data-aos="fade-right">
                         <h2 className='text-gray900 text-[32px] font-extrabold w-[336px]'>Any questions? Check out the FAQs</h2>
                         <p className='text-gray700 text-lg my-[32px]'>Still have unanswered questions and need to get in touch?</p>
                         <Link className='text-white font-semibold bg-brand py-[14px] px-[28px] text-[14px] rounded-[6px]' to={'/'}>Contact us now</Link>
                     </div>
                     {/* -----------Left Side------------ */}
-                    <div className='w-[746px] border-1 border-gray300 py-[6px] rounded-[6px] box-border'>
+                    <div className='w-[746px] border-1 border-gray300 py-[6px] rounded-[6px] box-border' data-aos="fade-left">
                         {faqs.map((item, i) => (
                         <div key={i} className={`${item.border} border-gray300 py-[16px]`}>
                             <div className='overflow-hidden'>

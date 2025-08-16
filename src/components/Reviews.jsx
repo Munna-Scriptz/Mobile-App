@@ -112,7 +112,7 @@ const Reviews = () => {
             <div className="container">
                 <div id="Reviews-Row">
                     {/* ------------Header------------ */}
-                    <div>
+                    <div data-aos="fade-up">
                         <h2 className='text-gray900 text-[40px] font-extrabold text-center mb-[64px]'>Clients are Loving Our App</h2>
                     </div>
                     {/* ------------Reviews Slider------------ */}

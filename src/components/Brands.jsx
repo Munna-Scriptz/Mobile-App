@@ -11,7 +11,7 @@ const Brands = () => {
     <>
         <section id='Brands' className='mt-[96px]'>
             <div className="container">
-                <div id="Brands-Row" className='flex items-center gap-[24px]'>
+                <div id="Brands-Row" className='flex items-center gap-[24px]' data-aos="fade-up">
                     <Link to={'/'} className='h-[100px] flex items-center justify-center px-[39px] border-1 border-gray300 w-fit duration-[.3s] hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]'>
                         <img src={brand1} alt="Brand image" />
                     </Link>

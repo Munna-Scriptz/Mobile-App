@@ -9,26 +9,26 @@ const Use = () => {
             <div className="container">
                 <div id="Use-Row" className='flex items-center justify-between'>
                     {/* ------------Left Side---------- */}
-                    <div>
+                    <div data-aos="fade-right">
                         <h2 className='text-gray900 font-extrabold text-[32px] mb-[32px]'>Simple & Easy to Use</h2>
                         <ul className='flex flex-col gap-3'>
-                            <li className='flex items-center gap-2'>
+                            <li className='flex items-center gap-2' data-aos="fade-up">
                                 <IoMdCheckmarkCircleOutline fill='#6366F1' className='text-[18px]'/>
                                 <p className='text-gray700 text-base '>Banking transactions are free for you</p>
                             </li>
-                            <li className='flex items-center gap-2'>
+                            <li className='flex items-center gap-2' data-aos="fade-up">
                                 <IoMdCheckmarkCircleOutline fill='#6366F1' className='text-[18px]'/>
                                 <p className='text-gray700 text-base '>No monthly cash commission</p>
                             </li>
-                            <li className='flex items-center gap-2'>
+                            <li className='flex items-center gap-2' data-aos="fade-up">
                                 <IoMdCheckmarkCircleOutline fill='#6366F1' className='text-[18px]'/>
                                 <p className='text-gray700 text-base '>Manage payments and transactions online</p>
                             </li>
-                            <li className='flex items-center gap-2'>
+                            <li className='flex items-center gap-2' data-aos="fade-up">
                                 <IoMdCheckmarkCircleOutline fill='#6366F1' className='text-[18px]'/>
                                 <p className='text-gray700 text-base '>Receive real-time alerts</p>
                             </li>
-                            <li className='flex items-center gap-2'>
+                            <li className='flex items-center gap-2' data-aos="fade-up">
                                 <IoMdCheckmarkCircleOutline fill='#6366F1' className='text-[18px]'/>
                                 <p className='text-gray700 text-base '>Receive payment from international bank details</p>
                             </li>
@@ -36,7 +36,7 @@ const Use = () => {
                         <button className='flex items-center gap-2 text-white font-semibold py-[12px] px-[28px] bg-brand rounded-[6px] mt-[40px]'>Learn more<FaArrowRight /></button>
                     </div>
                     {/* ------------Right Side---------- */}
-                    <div>
+                    <div data-aos="fade-left">
                         <img src={VideoImg} alt="Image" />
                     </div>
                 </div>
