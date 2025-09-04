@@ -3,7 +3,7 @@ import Banner from '../components/Banner'
 import Brands from '../components/Brands'
 import Features from '../components/Features'
 import Works from '../components/Works'
-import Use from '../components/USe'
+import UseApp from '../components/UseApp'
 import Reviews from '../components/Reviews'
 import Subscribe from '../components/Subscribe'
 import Faq from '../components/Faq'
@@ -15,7 +15,7 @@ const Home = () => {
       <Brands/>
       <Features/>
       <Works/>
-      <Use/>
+      <UseApp/>
       <Reviews/>
       <Faq/>
       <Subscribe/>
