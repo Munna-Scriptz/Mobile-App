@@ -16,9 +16,9 @@ const Subscribe = () => {
                     <div className='w-[472px] h-[52px] border-1 border-gray400 rounded-[8px] flex justify-between items-center'>
                         <div className='flex items-center w-full'>
                             <MdOutlineEmail className='text-gray500 text-[20px] ml-[16px]'/>
-                            <input className='h-full rounded-[8px] outline-none pl-[8px] w-full' type="text" placeholder='Your Email'/>
+                            <input className='h-full rounded-[8px] outline-none pl-[8px] w-full text-gray700' type="text" placeholder='Your Email'/>
                         </div>
-                        <button className='bg-brand h-full text-white px-[32px] text-base font-semibold rounded-r-[8px] cursor-pointer'>Subscribe</button>
+                        <button className='bg-brand h-full text-gray900 px-[32px] text-base font-semibold rounded-r-[8px] cursor-pointer'>Subscribe</button>
                     </div>
                 </div>
             </div>

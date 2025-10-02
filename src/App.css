@@ -1,9 +1,39 @@
 /* ---------------Common css------------- */
 body{
     font-family: "Manrope", sans-serif;
+    background-color: var(--backgroundCol-color);
+    transition: all ease-in-out 300ms;
+}
+:root {
+    --backgroundCol-color: #ffffff;
+    --brand-color: #6366F1;
+    --color-gray900: #131022;
+    --color-gray800: #3E4265;
+    --color-gray700: #585C7B;
+    --color-gray600: #9397AD;
+    --color-gray500: #B4B7C9;
+    --color-gray400: #D4D7E5;
+    --color-gray300: #E2E5F1;
+    --color-gray200: #EFF2FC;
+    --color-gray100: #F3F6FF;
+}
+[data-theme="dark"] {
+    --backgroundCol-color: #1a1a1a;
+    --text-color: #ffffff;
+    --color-brand: #818CF8;
+    --color-gray900: #F3F6FF;
+    --color-gray800: #E2E5F1;
+    --color-gray700: #D4D7E5;
+    --color-gray600: #B4B7C9;
+    --color-gray500: #9397AD;
+    --color-gray400: #585C7B;
+    --color-gray300: #3E4265;
+    --color-gray200: #3e446e;
+    --color-gray100: #131022;
 }
 #ArrowDownSHadow , #Quote{
     box-shadow: rgba(104, 87, 190, 0.788) 0px 20px 30px -10px;
+    background-color: var(--color-gray900);
 }
 #SliderBoxShadow{
     box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;

@@ -5,19 +5,20 @@
 
 @utility container {
   margin-inline: auto;
-  padding-inline: 0rem;
+  padding-inline: 1rem;
 }
 
 /* ---------------Themes--------------- */
-@theme{
+@theme inline{
   --font-manrope: "Manrope", "sans-serif";
-  --color-brand: #6366F1;
-  --color-gray900: #131022;
-  --color-gray800: #3E4265;
-  --color-gray700: #585C7B;
-  --color-gray600: #9397AD;
-  --color-gray500: #B4B7C9;
-  --color-gray400: #D4D7E5;
-  --color-gray300: #E2E5F1;
-  --color-gray100: #F3F6FF;
+  --color-brand: var(--brand-color);
+  --color-gray900: var(--color-gray900);
+  --color-gray800: var(--color-gray800);
+  --color-gray700: var(--color-gray700);
+  --color-gray600: var(--color-gray600);
+  --color-gray500: var(--color-gray500);
+  --color-gray400: var(--color-gray400);
+  --color-gray300: var(--color-gray300);
+  --color-gray200: var(--color-gray200);
+  --color-gray100: var(--color-gray100);
 }

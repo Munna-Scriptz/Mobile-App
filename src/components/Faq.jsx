@@ -45,7 +45,7 @@ const Faq = () => {
 
   return (
     <>
-        <section id='FAQ' className='mt-[112px]'>
+        <section id='FAQ' className='mt-[112px] overflow-hidden'>
             <div className="container">
                 <div id="Faq-Row" className='flex items-center justify-between'>
                     {/* -----------Left Side------------ */}
@@ -61,7 +61,7 @@ const Faq = () => {
                             <div className='overflow-hidden'>
                             <div onClick={() => toggleFaq(i)} className='flex items-center justify-between px-[24px] cursor-pointer'>
                                 <p className='text-gray900 font-semibold text-base'>{item.q}</p>
-                                <div id='ArrowDownSHadow' className={`bg-brand w-[36px] h-[36px] rounded-full flex items-center justify-center duration-[.3s] ${activeIndex === i ? 'bg-brand text-white' : 'bg-transparent'}`}>
+                                <div id='ArrowDownSHadow' className={`text-gray100 w-[36px] h-[36px] rounded-full flex items-center justify-center duration-[.3s] ${activeIndex === i ? 'bg-brand text-gray100' : 'bg-transparent'}`}>
                                   <FaAngleDown className={`duration-300 ${activeIndex === i ? 'rotate-180' : ''}`} />
                                 </div>
                             </div>

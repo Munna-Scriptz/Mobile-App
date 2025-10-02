@@ -22,7 +22,7 @@ const Works = () => {
     };
   return (
     <>
-        <section id='Works' className='mt-[112px] pt-[80px] pb-[96px] bg-[#F3F6FF] relative'>
+        <section id='Works' className='mt-[112px] pt-[80px] pb-[96px] bg-gray100 relative'>
             <div className="container">
                 <div id="Works-Row">
                     {/* -----------Header------------- */}

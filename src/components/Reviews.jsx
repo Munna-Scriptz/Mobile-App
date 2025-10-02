@@ -124,7 +124,7 @@ const Reviews = () => {
                                         <div id='SliderBoxShadow' className='w-[306px] px-[24px] pb-[24px] rounded-[8px]'>
                                             {/* -------Quote------ */}
                                             <div id='Quote' className='bg-brand w-[44px] h-[44px] rounded-[6px] flex items-center justify-center'>
-                                                <FaQuoteLeft className='text-[20px] text-white'/>
+                                                <FaQuoteLeft className='text-[20px] text-gray100'/>
                                             </div>
                                             <p className='text-gray700 text-base mt-[24px] h-[156px]'>{item.message}</p>
                                             <div className='text-[#FFBA08] text-[12px] flex items-center gap-1 mt-[16px]'>
